@@ -32,7 +32,6 @@ cd ..
 cd redpill-load
 cp ${root}/user_config.DS918+.json ./user_config.json
 sudo ./ext-manager.sh add 'https://raw.githubusercontent.com/RedPill-TTG/redpill-virtio/master/rpext-index.json'
-sudo ./ext-manager.sh add 'https://raw.githubusercontent.com/RedPill-TTG/redpill-sas-activator/master/rpext-index.json'
 sudo ./build-loader.sh 'DS918+' '6.2.4-25556'
 mv images/redpill-DS918+_6.2.4-25556*.img ${root}/output/
 cd ${root}
