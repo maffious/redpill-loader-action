@@ -28,6 +28,7 @@ cd ..
 # build redpill-load
 cd redpill-load
 cp -f ${root}/user_config.DS3615xs.json ./user_config.json
+sudo ./ext-manager.sh add 'https://raw.githubusercontent.com/RedPill-TTG/redpill-virtio/master/rpext-index.json'
 sudo ./build-loader.sh 'DS3615xs' '7.0-41222'
 mv images/redpill-DS3615xs_7.0-41222*.img ${root}/output/
 cd ${root}
