@@ -28,5 +28,6 @@ cd ..
 cd redpill-load
 cp ${root}/user_config.DS918+.json ./user_config.json
 sudo ./build-loader.sh 'DS918+' '7.0-41890'
+sudo ./ext-manager.sh add 'https://raw.githubusercontent.com/RedPill-TTG/redpill-virtio/master/rpext-index.json'
 mv images/redpill-DS918+_7.0-41890*.img ${root}/output/
 cd ${root}
