@@ -3,10 +3,10 @@
     "vid": "0x46f4",
     "pid": "0x0001",
     "sn": "1350PDN001692",
-    "mac1": "001132C7065E"
+    "mac1": "000C29997329"
   },
   "synoinfo": {
-    "supportsystemperature": "no",
-    "supportsystempwarning": "no"
+    "supportsystemperature": "yes",
+    "supportsystempwarning": "yes"
   }
 }
