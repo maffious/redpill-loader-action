@@ -1,10 +1,16 @@
 {
   "extra_cmdline": {
-    "sn": "1350PDN001692",
+    "vid": "0x058f",
+    "pid": "0x6387",
+    "sn": "1130LWN008790",
     "mac1": "000C29997329"
   },
   "synoinfo": {
-    "supportsystemperature": "yes",
-    "supportsystempwarning": "yes"
+    "sata_uid": "1",
+    "sata_pcislot": "5",
+    "synoboot_satadom": "1",
+    "DiskIdxMap": "0C",
+    "SataPortMap": "1",
+    "SasIdxMap": "0"
   }
 }
